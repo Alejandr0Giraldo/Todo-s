@@ -1,5 +1,57 @@
 li {
     display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px;
+}
+.checkbox{
+    scale: 150%;
+
+}
+
+.checkbox:hover {
+    transform: scale(1.2);
+}
+
+/* From Uiverse.io by Peary74 */
+.del {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 160px;
+    height: 50px;
+    margin: 0;
+    display: flex;
     justify-content: center;
     align-items: center;
 }
+
+.del div {
+    width: 70%;
+    height: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: none;
+    /*box-shadow: 4px 4px 6px 0 rgba(255,255,255,.5),*/
+    /*-4px -4px 6px 0 rgba(116, 125, 136, .5),*/
+    /*inset -4px -4px 6px 0 rgba(255,255,255,.2),*/
+    /*inset 4px 4px 6px 0 rgba(0, 0, 0, .4);*/
+    border: 1px solid gray;
+    /*border-top: 1px solid rgba(255, 255, 255, 0.1);*/
+    border-radius: 30px;
+    letter-spacing: 1px;
+    color: #ff0000;
+    z-index: 1;
+    transition: .6s;
+}
+
+.del:hover div {
+    letter-spacing: 2px;
+    color: #fff;
+    background: #ff0000;
+}
+
+
+
+

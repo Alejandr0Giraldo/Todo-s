@@ -5,13 +5,17 @@ function TodoItem(props) {
         <>
             <li>
                 <span>
-                    v
+                    <input className='checkbox' type="checkbox" checked={props.checked} onChange={props.onChange} />
                 </span>
                 <p>
                     {props.text}
                 </p>
                 <span>
-                    x
+                    <div className="del">
+                        <div>
+                          Delete
+                        </div>
+                    </div>
                 </span>
             </li>
         </>
