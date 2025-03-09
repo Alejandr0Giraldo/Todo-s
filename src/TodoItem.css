@@ -3,10 +3,11 @@ li {
     justify-content: space-between;
     align-items: center;
     margin: 10px;
+
 }
 .checkbox{
     scale: 150%;
-
+    margin: 15px;
 }
 
 .checkbox:hover {
@@ -50,6 +51,7 @@ li {
     letter-spacing: 2px;
     color: #fff;
     background: #ff0000;
+    cursor: pointer;
 }
 
 

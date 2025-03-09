@@ -2,17 +2,13 @@ import './CreateTodoButton.css';
 
 function CreateTodoButton() {
     return (
-        <button
-            className="CreateTodoButton"
-            onClick={
-                (event) => {
-                    console.log('le diste click')
-                    console.log(event)
-                    console.log(event.target)
-                }
-            }
-        >+</button>
+        <button className="c-button">
+          <span className="c-main">
+            <span className="c-ico"><span className="c-blur"></span> <span className="ico-text">+</span></span>
+            Crear Todo
+          </span>
+        </button>
     );
 }
 
-export { CreateTodoButton };
+export {CreateTodoButton};
